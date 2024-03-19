@@ -19,7 +19,7 @@ public partial class DBContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseNpgsql("connection string");
+        optionsBuilder.UseNpgsql("connection_string");
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

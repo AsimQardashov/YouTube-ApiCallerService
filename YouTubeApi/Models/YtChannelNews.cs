@@ -6,11 +6,11 @@ public partial class YtChannelNews
 
     public string NewsTitle { get; set; } = null!;
 
-    public string? NewsYtId { get; set; }
+    public string NewsYtId { get; set; }
 
     public string NewsUrl { get; set; } = null!;
 
-    public DateTime? NewsPublishDate { get; set; }
+    public DateTime NewsPublishDate { get; set; }
 
     public DateTime? NewsAddDate { get; set; }
 

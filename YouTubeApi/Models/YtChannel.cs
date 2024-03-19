@@ -6,11 +6,11 @@ public partial class YtChannel
 
     public string ChannelUsername { get; set; } = null!;
 
-    public string? ChannelYtId { get; set; }
+    public string ChannelYtId { get; set; }
 
     public int? ChannelSubcribersCount { get; set; }
 
-    public string? ChannelTitle { get; set; }
+    public string ChannelTitle { get; set; }
 
     public int ChannelStatus { get; set; }
 
